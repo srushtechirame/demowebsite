@@ -1,0 +1,80 @@
+<!-- <div style=" width: auto; height: auto;"> -->
+    <ngb-carousel [ngStyle]="{'outline':'none', 'padding':'0%', 'color':'black'}" >
+        <!-- <ng-template ngbSlide *ngFor="let image of images" >
+            <div [style.background-image]="'url('+image+')'">
+                <div [ngStyle]="{'padding': '7%'}">
+                <h4 [ngStyle]="{'text-align':'center'}">
+                About Us
+                </h4> 
+                <div [ngStyle]="{'padding': '3%'}">
+                    <p>
+                        Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia
+                    aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor,
+                    sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica,
+                    craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings
+                    occaecat craft beer farm-to-table, <br>raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus
+                    labore sustainable VHS. i cant hear u<br><br>
+                    Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia
+                    aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor,
+                    sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica,
+                    craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings
+                    occaecat craft beer farm-to-table, <br>raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus
+                    labore sustainable VHS. i cant hear u<br>
+     
+                    </p>
+                </div>
+                
+            </div>
+        </div>
+        </ng-template> -->
+        <ng-template ngbSlide *ngFor="let image of images" >
+            <div class="card container-fluid">
+                <div class="row" style="color: whitesmoke;">
+                    <div class="card-body col-4" style="border: none;">
+                        <!-- <div class="card-title">
+                            {{image}}
+                        </div> -->
+                        <div class="card text">
+                            <img class="card-img" src="http://localhost:4200/assets/images/blank-slate.jpg" alt="Card image" width="100%" class="img-responsive" style="float:left">
+                            <div class="card-img-overlay">
+                               <div style="padding: 10%;">
+                                stuff <br>
+                                here n there <br>
+                               </div> 
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card-body col-4" style="border: none;">
+                        <!-- <div class="card-title">
+                            {{image}}
+                        </div> -->
+                        <div class="card text">
+                            <img class="card-img" src="http://localhost:4200/assets/images/blank-slate.jpg" alt="Card image" width="100%" class="img-responsive" style="float:left">
+                            <div class="card-img-overlay">
+                               <div style="padding: 10%;">
+                                stuff <br>
+                                here n there <br>
+                               </div> 
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card-body col-4" style="border: none;">
+                        <!-- <div class="card-title">
+                            {{image}}
+                        </div> -->
+                        <div class="card text">
+                            <img class="card-img" src="http://localhost:4200/assets/images/blank-slate.jpg" alt="Card image" width="100%" class="img-responsive" style="float:left">
+                            <div class="card-img-overlay">
+                               <div style="padding: 10%;">
+                                stuff <br>
+                                here n there <br>
+                               </div> 
+                            </div>
+                        </div>
+                    </div>
+                     
+                </div>
+            </div>
+        </ng-template>
+    </ngb-carousel>
+<!-- </div> -->

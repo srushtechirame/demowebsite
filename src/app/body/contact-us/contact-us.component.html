@@ -1,0 +1,58 @@
+ <div class="container-fluid bg-secondary text-white ">       
+    <div>
+         <div class="row" [ngStyle]="{'padding': '5%'}">
+            <h4 [ngStyle]="{'text-align':'center'}">
+               Need Help?
+            </h4> 
+         </div>
+       <div class="row">
+          <div class="col-md-6" >
+             <!-- <img style="height: 300px;" > -->
+          </div>
+          <div class="col-md-6" >
+             <form #userForm="ngForm">
+                <div class="row">
+                   <div class="col-md-5" >
+                     
+                      <div class="form-group">
+                         <label>Name</label>
+                         <input type="text"  required [class.is-invalid]="nam.invalid && nam.touched" #nam="ngModel"    ngModel class="form-control" name="userName" placeholder="enter name">                  
+                         <small class="text-danger"  [class.d-none]="nam.valid || nam.untouched">name is requried</small>                      
+                      </div>
+                      <div class="form-group" >
+                         <label>Email</label>
+                         <input class="form-control"  [class.is-invalid]="email.invalid && email.touched"  placeholder="enter email" pattern= "^[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" #email="ngModel" ngModel  required name="email">                       
+                         <small class="text-danger"  [class.d-none]="email.valid || email.untouched">email is requried and enter valid email</small>                       
+                      </div>
+                   </div>
+                   <div class="col-md-5"  style="padding-top: 57px; ">
+                      <div class="form-group">
+                         <label>Phone Number</label>
+                         <input type="name" class="form-control" placeholder="enter phone number" pattern="^\d{10}$" name="phNo" required [class.is-invalid]="phone.invalid && phone.touched"  ngModel #phone="ngModel">                        
+                         <small class="text-danger"  [class.d-none]="phone.valid || phone.untouched">phone num is requried and enter valid number</small>
+                      </div>
+                      <div class="form-group">
+                         <label>Your Query</label>                   
+                         <textarea placeholder="explain your issues" class="md-textarea form-control" rows="5"></textarea>
+                      </div>
+                   </div>
+                </div>
+                <div class="row">
+                   
+                   <div class="col-md-5">
+                   <button type="submit" class="btn btn-primary">Submit</button>
+                   </div>
+                </div>
+             </form>
+          </div>
+       </div>
+    </div>
+    <hr style="height:2px;width:50%;color:gray;background-color:gray;">
+    <div>
+       <img class="imge" src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e9/Linkedin_icon.svg/1024px-Linkedin_icon.svg.png">
+       <img class="imge" src="https://p7.hiclipart.com/preview/477/609/118/logo-computer-icons-clip-art-instagram-logo.jpg">
+       <img class="imge" src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fb/Facebook_icon_2013.svg/1200px-Facebook_icon_2013.svg.png">
+       <img class="imge" src="https://www.creativefreedom.co.uk/wp-content/uploads/2015/06/Twitter-bird-white-blue2.png">
+    </div>
+ </div>
+ 

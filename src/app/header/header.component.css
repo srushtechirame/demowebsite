@@ -1,0 +1,64 @@
+/* .logo{
+    background-image: image(); 
+} */
+ .bg-custom{
+    background-image: url('http://localhost:4200/assets/images/bg4.jpg') !important;
+    /* background-color: palevioletred; */
+    color: white !important;
+}
+.navbar-dark{
+    color: #ffffff !important;
+}
+.x-navbar {
+    /* border-bottom: 1px solid #ccc; */
+    /* background-color: #fff; */
+    color: black !important;
+    box-shadow: 0 0.15em 0.35em 0 rgba(0,0,0,0.135);
+    -webkit-transform: translate3d(0, 0, 0);
+    -ms-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+}
+.banner{
+	background-image:url('http://www.hd-freewallpapers.com/latest-wallpapers/abstract-website-backgrounds.jpg');
+	text-align: center;
+    color: #ffffff;
+   
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+.logo{
+    /* max-height: 120px;
+    max-width:  100px; */
+    align-items: center;
+    /* overflow: hidden; */
+    /* background-image:; */
+}
+.navbar-brand  span{
+    color: black;
+    
+	font-size:25px;font-weight:700;letter-spacing:0.1em;
+    font-family: 'Kaushan Script','Helvetica Neue',Helvetica,Arial,cursive;
+}
+.navbar-nav .nav-item .nav-link{
+    color: black;
+	padding: 1.1em 1em!important;
+	font-size: 120%;
+    font-weight: 500;
+    letter-spacing: 1px;
+    columns: #000000;
+   font-family: 'Gothic A1', sans-serif;
+}
+.navbar-nav .nav-item .nav-link:hover{color:purple;}
+
+.dropdown-item:hover{background-color:white;color :purple;}
+
+nav{-webkit-transition: padding-top .3s,padding-bottom .3s;
+    -moz-transition: padding-top .3s,padding-bottom .3s;
+    transition: padding-top .3s,padding-bottom .3s;
+    border: none;
+	}
